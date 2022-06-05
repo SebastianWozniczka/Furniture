@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Meble</string>
+    <string name="latest">Ostatnie: </string>
+    <string name="take_picture">Zrób zdjęcie</string>
+    <string name="launch_gallery">Otwórz galerię</string>
+    <string name="classified_as">Oznaczono jako:</string>
+</resources>

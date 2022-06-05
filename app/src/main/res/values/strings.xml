@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Furniture</string>
+    <string name="latest">Latest</string>
+    <string name="take_picture">Take Picture</string>
+    <string name="launch_gallery">Launch Gallery</string>
+    <string name="classified_as">Classified as:</string>
+</resources>

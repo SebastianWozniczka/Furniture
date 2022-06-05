@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:id="@+id/button"
+        android:text="@string/take_picture"
+        android:textAllCaps="false"
+        android:layout_above="@id/button2"
+        android:textSize="21sp"
+        android:textStyle="bold"
+        />
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:id="@+id/button2"
+        android:text="@string/launch_gallery"
+        android:textAllCaps="false"
+        android:layout_alignParentBottom="true"
+        android:textSize="21sp"
+        android:textStyle="bold"
+        />
+
+    <Button
+        android:id="@+id/openA1"
+        android:textStyle="bold"
+        android:textSize="20sp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/button"
+        android:layout_marginBottom="1dp"
+        android:text="@string/latest" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10sp"
+        android:scaleType="fitCenter" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:text="@string/classified_as"
+        android:textStyle="bold"
+        android:textSize="20sp"
+        android:id="@+id/classified"
+        android:layout_below="@+id/imageView"
+        android:layout_marginTop="10sp"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:text=""
+        android:textColor="#C30000"
+        android:textStyle="bold"
+        android:textSize="27sp"
+        android:id="@+id/result"
+        android:layout_below="@+id/classified"
+
+        />
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_below="@id/imageView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@android:drawable/ic_input_add"
+        app:iconTint="#F34B4B" />
+
+    <ListView
+        android:id="@+id/list"
+        android:layout_width="match_parent"
+        android:layout_height="20dp"
+        android:layout_above="@+id/button2"
+        android:layout_below="@id/result"
+        android:layout_marginTop="12dp"
+        android:layout_marginBottom="119dp">
+
+
+    </ListView>>
+
+</RelativeLayout>
